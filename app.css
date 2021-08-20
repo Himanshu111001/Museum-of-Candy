@@ -3,6 +3,45 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+.mytitle{
+    position: absolute;
+    margin-top: 80px;
+    padding: 20px 70px;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+}
+
+
+span{
+    color: #EA1C2C;
+    padding: 0px 10px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 600px;
+}
+
+footer .fa{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+.fa:hover{
+    text-decoration: none;
+    color: #EA1C2C;
+}
+
+.footer-col p{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+} 
+
 img{
     width: 100%;
     height: auto;
