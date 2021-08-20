@@ -35,6 +35,10 @@ footer .fa{
     color: #EA1C2C;
 }
 
+.zero-visiblity{
+    display: none;
+}
+
 .footer-col p{
     font-weight: 600;
     font-size: 20px;
@@ -104,6 +108,30 @@ img{
     }
     .blurb h2 {
         font-size: 2rem;
+    }
+}
+@media(max-width:700px){
+
+    .social-links{
+        display: none;
+    }
+    .zero-visiblity{
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 100px;
+        margin-bottom: 10px;
+    }
+    .zero-visiblity:hover{
+        text-decoration: none;
+        color: #EA1C2C;
+    }
+    .footer-col p{
+        font-size: 15px;
+       display: block;
+    } 
+    .mytitle{
+        display: none;
     }
 }
 
