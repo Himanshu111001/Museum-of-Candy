@@ -139,9 +139,14 @@ img{
     .mytitle{
         display: none;
     }
+    .pymnt a p{
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+    
 }
 
-@media (max-width:800px) and (min-width:700px){
+@media (max-width:1030px) and (min-width:700px){
     .social-links{
         display: none;
     }
@@ -152,7 +157,23 @@ img{
         margin: 0px 150px;
         margin-bottom: 50px;
     }
+    .pymnt p {
+        font-size: 35px;
+        margin-bottom: 100px;
+    }
 
+    @media (max-width:1000px) and (min-width:750px){
+        
+    }
+
+}
+@media (max-width:300px){
+    .social-links{
+        display: none;
+    }
+    .zero-visiblity{
+        display: none;
+    }
 }
 
 /* TICKETS  SECTION */
@@ -342,11 +363,17 @@ img{
     }
 }
 
-.payment-redirect{
-    position: fixed;
-    margin-left: 610px;
-    margin-top: 120px;
-    font-weight: 500;
-    font-size: 20px;
+/* .pymnt .payment-redirect {
+    text-decoration: none;
     color: #fff;
+    text-align: center;
+    font-size: 24px;
+} */
+
+.pymnt p, a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
