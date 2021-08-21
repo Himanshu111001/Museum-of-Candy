@@ -75,24 +75,6 @@ img{
     margin-bottom: 100px;
 }
 
-#mainNavbar {
-    font-size: 1.5rem;
-    font-weight: 100;
-}
-
-#mainNavbar .nav-link {
-    color: white;
-}
-
-#mainNavbar .nav-link:hover {
-    color: #EA1C2C;
-}
-
-#mainNavbar .navbar-brand {
-    color: #EA1C2C;
-    font-size: 1.5rem;
-}
-
 #headingGroup span {
     color: #EA1C2C;
 }
@@ -137,8 +119,8 @@ img{
        display: block;
     }
     .mytitle{
-        display: none;
-    }
+        display: none; 
+    } 
     .pymnt a p{
         font-size: 20px;
         margin-bottom: 80px;
@@ -179,25 +161,25 @@ img{
 /* TICKETS  SECTION */
 
 .t-nav{
+    background-color: #ff8fa3;
+    z-index: 999999;
+    width: 100%;
     position: fixed;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    margin-top: 10px;
 }
-.t-nav li{
-    list-style: none;
-}
+
 .logo{
     font-size: 23px;
     font-weight: 100;
     color: #EA1C2C;
-    margin: 0px 20px;
+    margin: 10px 20px;
 }
 .t-nav a{
     font-size: 23px;
     font-weight: 100;
-    margin: 0px 10px;
+    margin: 10px 20px;
     color: #fff;
     display: inline;
     text-decoration: none;
@@ -353,22 +335,17 @@ img{
         font-size: 12px;
     }
     .t-nav{
+        justify-content: center;
+        align-items: center;
         position: fixed;
     }
     .logo{
-        font-size: 17px;
+        font-size: 10px;
     }
     .t-nav a{
-        font-size: 17px;
+        font-size: 10px;
     }
 }
-
-/* .pymnt .payment-redirect {
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    font-size: 24px;
-} */
 
 .pymnt p, a{
     text-decoration: none;
